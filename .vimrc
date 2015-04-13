@@ -13,13 +13,15 @@ set number
 set nocompatible
 filetype off
 
-" set rtp+=~/.vim/bundle/vundle/
-" call vundle#rc()
-" " 
-" " let Vundle manage Vundle
-" " required! 
-" Bundle 'gmarik/vundle'
-
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+ 
+"let Vundle manage Vundle
+"required! 
+Bundle 'gmarik/Vundle.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'
+ 
 filetype plugin indent on " required!
 
 set laststatus=2
